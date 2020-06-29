@@ -228,3 +228,11 @@ menu li{
 	cursor: pointer;
 }
 
+@media (max-width: 700px) {
+
+	.catalog-list__item a img {
+		width: 400px;
+	}
+	
+}
+
