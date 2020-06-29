@@ -1,32 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+  <title>Welcome!</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" type="text/css" href="icofont/icofont.min.css">
+  <script src="JS/jquery-3.4.1.min.js" ></script>
+  <script src="JS/main.js"></script>
 </head>
 <body>
-    <header>
-        <div class="head">
-            <img src="./img/2-jsGyTdG1A.jpg" alt="Ребенок">
-        </div>
-    </header>
-    <div class="fix">
-        <div class="content">
-            <div class="block">
-                <p>
-                    Контрацепция в современном мире является не только предупреждением нежелательной беременности и способом сохранения репродуктивного здоровья женщины, но и гарантом здорового малыша тогда, когда этого сама захочет женщина. Подбор контрацептива для девушки является очень трудной задачей. Выбранный метод контрацепции не должен оказывать отрицательный эффект на здоровье. Он должен иметь высокую эффективность, быть в доступной ценовой категории для каждой девушки, так же необходимо принимать во внимание мнение партнера и важно, чтобы он вам подходил под ваш образ жизни. Сейчас противозачаточные средства является безопасными и удобными в применении.
-                </p>
-            </div>
-            <div class="block">
-                <p>Есть несколько критериев, по которым оценивается безопасность каждого метода контрацепции. Учитывается как медицинские показания, так и само репродуктивное здоровье женщины:</p>
-                <p>1) не создает ли метод контрацепции отрицательный эффект на здоровье женщины, и не появляются ли другие риски, которые ухудшают ее здоровье;</p>
-                <p>2) понижается ли клиническое состояние на эффективность метода.</p>
-                <p>Нужно учитывать, чтобы безопасность метода стояла в ряду с преимуществами его использования, чтобы не было нежелательной беременности.</p>
-            </div>
-        </div>
+  <header>
+    <div class="header">
+      <div class="logo">
+        <a href=""><img src="img/huuango.jpg" alt="huuango"></a>
+      </div>
+      <menu>
+        <li><a href="#"><p class="icofont-look icofont-2x"></p></a></li>
+        <li><a href="#"><p class="icofont-id icofont-2x"></p></a></li>
+        <li><a href="#"><p class="icofont-heart icofont-2x"></p></a></li>
+        <li><a href="#"><p class="icofont-cart icofont-2x"></p></a></li>
+      </menu>
     </div>
-
+  </header>
+  <div class="nav">
+    <span></span>
+    <div class="nav__pointer">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <nav>
+      <ul class="nav__list">
+        <li>
+          <a href="#">Пальто</a>
+          <ul class="nav__sub-list">
+            <li><a href="#">Пальто</a></li>
+            <li><a href="#">Пальто</a></li>
+            <li><a href="#">Пальто</a></li>
+          </ul>
+        </li> 
+        <li>
+          <a href="#">Куртки</a>
+          <ul class="nav__sub-list">
+            <li><a href="#">Пальто</a></li>
+            <li><a href="#">Пальто</a></li>
+            <li><a href="#">Пальто</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Платья</a>
+          <ul class="nav__sub-list">
+            <li><a href="#">ПальтоПальтоПальтоПальтоПальто</a></li>
+            <li><a href="#">Пальто</a></li>
+            <li><a href="#">Пальто</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Футболки и топы</a></li>
+        <li><a href="#">Рубашки</a></li>
+        <li><a href="#">Джинсы</a></li>
+        <li><a href="#">Брюки</a></li>
+        <li><a href="#">Шорты</a></li>
+        <li><a href="#">Юбки</a></li>
+      </ul>
+    </nav>
+  </div>
+  <section class="content">
+      <div class="catalog-list">
+        <div class="catalog-list__item">
+          <p class="catalog-list__favorite icofont-heart icofont-2x"></p>
+          <a href="">
+            <img src="img/1.jpg" alt="">
+            <p>Джинсы с высокой посадкой</p>
+            <span class="catalog-list__price">6&nbsp;980&nbsp;руб.</span>
+          </a>
+        </div>
+        <div class="catalog-list__item">
+          <p class="catalog-list__favorite icofont-heart icofont-2x"></p>
+          <a href="">
+            <img src="img/2.jpg" alt="">
+            <p>Джинсы с высокой посадкой</p>
+            <span class="catalog-list__price">6&nbsp;980&nbsp;руб.</span>
+          </a>
+        </div>
+        <div class="catalog-list__item">
+          <p class="catalog-list__favorite icofont-heart icofont-2x"></p>
+          <a href="">
+            <img src="img/3.jpg" alt="">
+            <p>Джинсы с высокой посадкой</p>
+            <span class="catalog-list__price">6&nbsp;980&nbsp;руб.</span>
+          </a>
+        </div>
+        <div class="catalog-list__item">
+          <p class="catalog-list__favorite icofont-heart icofont-2x"></p>
+          <a href="">
+            <img src="img/4.jpg" alt="">
+            <p>Джинсы с высокой посадкой</p>
+            <span class="catalog-list__price">6&nbsp;980&nbsp;руб.</span>
+          </a>
+        </div>
+      </div>
+  </section>
 </body>
 </html>
